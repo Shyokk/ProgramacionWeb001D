@@ -1,0 +1,52 @@
+#apartado15 {
+    margin-left: 80%;
+    position: absolute;
+  }
+  
+  #link {
+    padding-left: 0%;
+  }
+  
+  #link2 {
+    padding-right: 5%;
+  }
+  
+  #logo-pagina {
+    height: 75px;
+    width: 60px;
+  }
+  
+  #titulo-principal {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media screen and (min-width: 980px) {
+    /* Centrar el logo y el título en el medio */
+    #logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* Eliminar los márgenes laterales */
+    #logo img {
+      margin: 0;
+    }
+  
+    #titulo-principal {
+      margin-left: 10px;
+    }
+  
+    /* Mover el botón del menú a la izquierda */
+    #apartado15 {
+      margin-left: 0;
+    }
+  
+    /* Ajustar el padding para centrar los elementos */
+    #link2 {
+      padding: 0 10%;
+    }
+  }
+  

@@ -1,0 +1,357 @@
+#apartado1 {
+  height: 240px;
+  width: 500px;
+  border: 3px solid rgba(86, 87, 86, 0.199);
+  border-radius: 30px;
+  background-color: rgba(178, 255, 134, 0.11);
+}
+
+#apartado2 {
+  height: 200px;
+  width: 500px;
+  border: 3px solid rgba(86, 87, 86, 0.199);
+  border-radius: 30px;
+  background-color: rgba(178, 255, 134, 0.11);
+}
+
+#apartado3 {
+  border-right: 10px dashed #3C5391;
+  border-left: 10px inset orange;
+}
+
+#apartado4 {
+  padding-top: 5%;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#apartado5 {
+  width: 40%;
+  position: relative;
+  left: 2%;
+}
+
+#apartado6 {
+  width: 40%;
+  position: relative;
+  left: -10%;
+}
+
+#apartado7 {
+  text-align: left;
+}
+
+#apartado8 {
+  position: relative;
+  right: -55%;
+  top: -480px;
+}
+
+#apartado9 {
+  position: relative;
+  left: 5%;
+  top: -500px;
+}
+
+#apartado11 {
+  height: fit-content;
+  text-align: center;
+  color: rgb(5, 78, 33);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#apartado12 {
+  border-left: thick solid;
+  border-right: thick solid;
+  border-color: #309c5d;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  background-color: white;
+}
+
+#apartado13 {
+  background-image: url(https://img.freepik.com/vector-premium/planta-patron-hojas_573652-1055.jpg?w=2000);
+}
+
+#apartado15 {
+  margin-left: 80%;
+  position: absolute;
+}
+
+#apartado16 {
+  margin-top: 18%;
+}
+
+#logo-pagina {
+  height: 75px;
+  width: 60px;
+}
+
+#titulo-principal {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#link {
+  padding-left: 0%;
+}
+
+#link2 {
+  padding-right: 5%;
+}
+
+#carrosel {
+  margin-top: 16%;
+}
+
+/*footer*/
+#bajada {
+  margin-bottom: 10px;
+}
+
+.footer .copyright {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 4px 0px;
+  color: black;
+}
+
+/*redes sociales footer*/
+
+.footer .social {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#instagram {
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#facebook {
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#twitter {
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#Whastsapp {
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#telephone,
+#tel {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: white;
+}
+
+#numero_footer {
+  background-color: white;
+}
+
+#catalogo_completo {
+  background-color: white;
+}
+
+.footer .social>a {
+  font-size: 24px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  border: 4px solid black;
+  margin: 20px 14px -4px;
+  color: inherit;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+}
+
+.info__card h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+header {
+  padding: 20px 0 0 0;
+  background: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__container {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.carrito__container {
+  width: 50%;
+}
+
+.carrito__container ul {
+  float: right;
+  margin-right: 30px;
+}
+
+.submenu {
+  position: relative;
+  list-style-type: none;
+  width: 50%;
+}
+
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 110;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.borrar-curso {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#lista-cursos {
+  padding: 30px 0;
+}
+
+.encabezado__cursos {
+  margin-bottom: 30px;
+}
+
+.cursos__container {
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 25px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.curso__item {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/*ver para adaptar fotos*/
+.card__img,
+.imagen__curso {
+  height: 390px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.info__card {
+  padding: 10px 10px;
+  position: relative;
+  height: 160px;
+}
+
+.info__card * {
+  margin-bottom: 10px;
+}
+
+.precio {
+  text-decoration: line-through;
+  color: red;
+}
+
+.discount {
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 1.25em;
+}
+
+.agregar-carrito {
+  background: #00B2BD;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+}
+
+.agregar-carrito:hover {
+  background: #00828a;
+  color: white;
+}
+
+.fa {
+  margin-bottom: 0;
+}
+
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 767px) {
+  .cursos__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cursos__container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 949px) {
+  .cursos__container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

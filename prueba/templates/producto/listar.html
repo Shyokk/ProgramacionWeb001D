@@ -1,0 +1,178 @@
+{% extends 'prueba/base.html' %} 
+
+{% load humanize %}
+
+{% block contenido %}
+
+    <table class="table table-striped table-hover table-responsive-sm" style="width: 80%">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">PLANTAS</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+        <tr>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">DESCRIPCION</th>
+            <th scope="col">PRECIO</th>
+            <th scope="col">OPCIONES</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for p in plantas %}
+            <tr>
+                <th scope="row">{{ p.nombre | title }}</th>
+                <td>{{ p.descripcion }}</td>
+                <td>${{ p.precio | intcomma }}</td>
+                <td>
+                    <a href="{% url 'modificar' p.id %}" class="btn btn-info btn-sm">modificar</a>
+                    <a href="{% url 'eliminar' p.id %}" class="btn btn-danger btn-sm">eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+        {% comment %} MACETAS {% endcomment %}
+
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">MACETAS</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+        <tr>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">DESCRIPCION</th>
+            <th scope="col">PRECIO</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for p in macetas %}
+            <tr>
+                <th scope="row">{{ p.nombre | title }}</th>
+                <td>{{ p.descripcion }}</td>
+                <td>${{ p.precio | intcomma }}</td>
+                <td>
+                    <a href="{% url 'modificar2' p.id %}" class="btn btn-info btn-sm">modificar</a>
+                    <a href="{% url 'eliminar2' p.id %}" class="btn btn-danger btn-sm">eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+        {% comment %} TIERRAS {% endcomment %}
+
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">TIERRAS</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <thead>
+        <tr>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">DESCRIPCION</th>
+            <th scope="col">PRECIO</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for p in tierras %}
+            <tr>
+                <th scope="row">{{ p.nombre | title }}</th>
+                <td>{{ p.descripcion }}</td>
+                <td>${{ p.precio | intcomma }}</td>
+                <td>
+                    <a href="{% url 'modificar3' p.id %}" class="btn btn-info btn-sm">modificar</a>
+                    <a href="{% url 'eliminar3' p.id %}" class="btn btn-danger btn-sm">eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    
+
+
+{% endblock %}
